@@ -1,0 +1,214 @@
+2025-09-25 18:19:54,870 - INFO - Using device: cuda
+2025-09-25 18:19:54,873 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2025-09-25 18:19:54,873 - INFO - CUDA Version: 12.4
+2025-09-25 18:19:54,874 - INFO - Initializing dataset...
+2025-09-25 18:19:59,505 - INFO - Loaded 32973 samples for train split
+2025-09-25 18:19:59,507 - INFO - 
+Class distribution for train split:
+2025-09-25 18:19:59,508 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 18:19:59,508 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 18:19:59,508 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 18:19:59,508 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 18:19:59,508 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 18:19:59,508 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 18:19:59,519 - INFO - Dataset loaded: 32973 total samples
+2025-09-25 18:19:59,519 - INFO - Train: 23081, Val: 4946, Test: 4946
+2025-09-25 18:19:59,521 - INFO - Class distribution:
+2025-09-25 18:19:59,521 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 18:19:59,521 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 18:19:59,521 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 18:19:59,521 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 18:19:59,521 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 18:19:59,521 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 18:19:59,521 - INFO - Initializing three-stage fusion model...
+2025-09-25 18:19:59,640 - INFO - Model initialized:
+2025-09-25 18:19:59,640 - INFO -   Total parameters: 1,828,037
+2025-09-25 18:19:59,640 - INFO -   Trainable parameters: 1,828,037
+2025-09-25 18:19:59,642 - INFO - Starting three-stage training...
+2025-09-25 18:19:59,642 - INFO - ============================================================
+2025-09-25 18:19:59,642 - INFO - Starting Three-Stage Training Pipeline
+2025-09-25 18:19:59,642 - INFO - Stage 1: 40 epochs (Pre-training)
+2025-09-25 18:19:59,642 - INFO - Stage 2: 50 epochs (Knowledge Distillation)
+2025-09-25 18:19:59,642 - INFO - Stage 3: 30 epochs (TLA Activation)
+2025-09-25 18:19:59,642 - INFO - 
+==================================================
+2025-09-25 18:19:59,642 - INFO - Starting Stage 1 Training (40 epochs)
+2025-09-25 18:19:59,642 - INFO - ==================================================
+2025-09-25 18:19:59,642 - INFO - 
+Stage 1, Epoch 1/40
+2025-09-25 18:19:59,667 - ERROR - Error in main execution: Can't pickle local object 'MultiModalWeldingDataset._setup_transforms.<locals>.<lambda>'
+2025-09-25 18:22:46,097 - INFO - Using device: cuda
+2025-09-25 18:22:46,100 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2025-09-25 18:22:46,100 - INFO - CUDA Version: 12.4
+2025-09-25 18:22:46,101 - INFO - Initializing dataset...
+2025-09-25 18:22:51,095 - INFO - Loaded 32973 samples for train split
+2025-09-25 18:22:51,097 - INFO - 
+Class distribution for train split:
+2025-09-25 18:22:51,097 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 18:22:51,097 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 18:22:51,097 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 18:22:51,097 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 18:22:51,097 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 18:22:51,097 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 18:22:51,110 - INFO - Dataset loaded: 32973 total samples
+2025-09-25 18:22:51,110 - INFO - Train: 23081, Val: 4946, Test: 4946
+2025-09-25 18:22:51,112 - INFO - Class distribution:
+2025-09-25 18:22:51,112 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 18:22:51,112 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 18:22:51,112 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 18:22:51,112 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 18:22:51,112 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 18:22:51,112 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 18:22:51,112 - INFO - Initializing three-stage fusion model...
+2025-09-25 18:22:51,215 - INFO - Model initialized:
+2025-09-25 18:22:51,215 - INFO -   Total parameters: 1,828,037
+2025-09-25 18:22:51,215 - INFO -   Trainable parameters: 1,828,037
+2025-09-25 18:22:51,217 - INFO - Starting three-stage training...
+2025-09-25 18:22:51,217 - INFO - ============================================================
+2025-09-25 18:22:51,217 - INFO - Starting Three-Stage Training Pipeline
+2025-09-25 18:22:51,217 - INFO - Stage 1: 40 epochs (Pre-training)
+2025-09-25 18:22:51,217 - INFO - Stage 2: 50 epochs (Knowledge Distillation)
+2025-09-25 18:22:51,217 - INFO - Stage 3: 30 epochs (TLA Activation)
+2025-09-25 18:22:51,217 - INFO - 
+==================================================
+2025-09-25 18:22:51,217 - INFO - Starting Stage 1 Training (40 epochs)
+2025-09-25 18:22:51,217 - INFO - ==================================================
+2025-09-25 18:22:51,217 - INFO - 
+Stage 1, Epoch 1/40
+2025-09-25 18:25:19,613 - INFO - Train Loss: 0.6231, Train Acc: 0.7677
+2025-09-25 18:25:19,613 - INFO - Val Loss: 0.2723, Val Acc: 0.8894
+2025-09-25 18:25:19,613 - INFO - Loss Components: {'cls_loss': 0.6226880728330427, 'bottleneck_reg': 0.00039507982341528886, 'total_loss': 0.6230831518769264}
+2025-09-25 18:25:19,638 - INFO - New best Stage 1 model saved: outputs\models\best_stage_1_epoch_1_acc_0.8894.pth
+2025-09-25 18:25:19,669 - INFO - 
+Stage 1, Epoch 2/40
+2025-09-25 18:27:48,192 - INFO - Train Loss: 0.4082, Train Acc: 0.8519
+2025-09-25 18:27:48,193 - INFO - Val Loss: 0.1654, Val Acc: 0.9442
+2025-09-25 18:27:48,193 - INFO - Loss Components: {'cls_loss': 0.40810507279659275, 'bottleneck_reg': 6.606271431015853e-05, 'total_loss': 0.40817113616471484}
+2025-09-25 18:27:48,224 - INFO - New best Stage 1 model saved: outputs\models\best_stage_1_epoch_2_acc_0.9442.pth
+2025-09-25 18:27:48,255 - INFO - 
+Stage 1, Epoch 3/40
+2025-09-25 18:30:15,076 - INFO - Train Loss: 0.3465, Train Acc: 0.8755
+2025-09-25 18:30:15,076 - INFO - Val Loss: 0.2583, Val Acc: 0.9118
+2025-09-25 18:30:15,076 - INFO - Loss Components: {'cls_loss': 0.3464067661786005, 'bottleneck_reg': 6.244772552092296e-05, 'total_loss': 0.3464692138734786}
+2025-09-25 18:30:15,076 - INFO - 
+Stage 1, Epoch 4/40
+2025-09-25 18:32:44,686 - INFO - Train Loss: 0.3187, Train Acc: 0.8859
+2025-09-25 18:32:44,686 - INFO - Val Loss: 0.2338, Val Acc: 0.9216
+2025-09-25 18:32:44,686 - INFO - Loss Components: {'cls_loss': 0.3186234983069184, 'bottleneck_reg': 5.9470726095577386e-05, 'total_loss': 0.31868296892391246}
+2025-09-25 18:32:44,686 - INFO - 
+Stage 1, Epoch 5/40
+2025-09-25 18:35:05,128 - INFO - Train Loss: 0.3064, Train Acc: 0.8884
+2025-09-25 18:35:05,128 - INFO - Val Loss: 0.3451, Val Acc: 0.9019
+2025-09-25 18:35:05,128 - INFO - Loss Components: {'cls_loss': 0.30638754615578256, 'bottleneck_reg': 5.747795179919805e-05, 'total_loss': 0.3064450242772347}
+2025-09-25 18:35:05,128 - INFO - 
+Stage 1, Epoch 6/40
+2025-09-25 18:37:30,325 - INFO - Train Loss: 0.2952, Train Acc: 0.8929
+2025-09-25 18:37:30,325 - INFO - Val Loss: 0.2836, Val Acc: 0.9005
+2025-09-25 18:37:30,325 - INFO - Loss Components: {'cls_loss': 0.2951651521649692, 'bottleneck_reg': 5.4392965661092813e-05, 'total_loss': 0.29521954548900403}
+2025-09-25 18:37:30,325 - INFO - 
+Stage 1, Epoch 7/40
+2025-09-25 18:39:56,004 - INFO - Train Loss: 0.2693, Train Acc: 0.9017
+2025-09-25 18:39:56,004 - INFO - Val Loss: 0.2721, Val Acc: 0.9123
+2025-09-25 18:39:56,004 - INFO - Loss Components: {'cls_loss': 0.26922093726172736, 'bottleneck_reg': 5.204394850385829e-05, 'total_loss': 0.26927298183027193}
+2025-09-25 18:39:56,004 - INFO - 
+Stage 1, Epoch 8/40
+2025-09-25 18:42:22,213 - INFO - Train Loss: 0.2693, Train Acc: 0.9026
+2025-09-25 18:42:22,213 - INFO - Val Loss: 0.3820, Val Acc: 0.9054
+2025-09-25 18:42:22,213 - INFO - Loss Components: {'cls_loss': 0.2692539281303505, 'bottleneck_reg': 5.081975188845964e-05, 'total_loss': 0.2693047483778467}
+2025-09-25 18:42:22,213 - INFO - Early stopping Stage 1 at epoch 8
+2025-09-25 18:42:22,213 - INFO - Stage 1 completed! Best accuracy: 0.9442
+2025-09-25 18:42:22,214 - INFO - 
+==================================================
+2025-09-25 18:42:22,214 - INFO - Starting Stage 2 Training (50 epochs)
+2025-09-25 18:42:22,214 - INFO - ==================================================
+2025-09-25 18:42:22,214 - INFO - 
+Stage 2, Epoch 1/50
+2025-09-25 18:45:09,572 - INFO - Train Loss: 0.2521, Train Acc: 0.8677
+2025-09-25 18:45:09,573 - INFO - Val Loss: 0.1239, Val Acc: 0.9165
+2025-09-25 18:45:09,573 - INFO - Loss Components: {'cls_loss': 0.3402337755335575, 'kd_loss': 2.657813530275792e-05, 'fusion_reg': -0.08818150178404026, 'total_loss': 0.2520655625694833}
+2025-09-25 18:45:09,598 - INFO - New best Stage 2 model saved: outputs\models\best_stage_2_epoch_1_acc_0.9165.pth
+2025-09-25 18:45:09,598 - INFO - 
+Stage 2, Epoch 2/50
+2025-09-25 18:47:56,083 - INFO - Train Loss: 0.2390, Train Acc: 0.8717
+2025-09-25 18:47:56,083 - INFO - Val Loss: 0.0115, Val Acc: 0.9581
+2025-09-25 18:47:56,083 - INFO - Loss Components: {'cls_loss': 0.327560572568508, 'kd_loss': 1.5986068032154925e-07, 'fusion_reg': -0.08855218626817123, 'total_loss': 0.23900846524704014}
+2025-09-25 18:47:56,111 - INFO - New best Stage 2 model saved: outputs\models\best_stage_2_epoch_2_acc_0.9581.pth
+2025-09-25 18:47:56,142 - INFO - 
+Stage 2, Epoch 3/50
+2025-09-25 18:50:42,781 - INFO - Train Loss: 0.2317, Train Acc: 0.8738
+2025-09-25 18:50:42,781 - INFO - Val Loss: -0.0444, Val Acc: 0.9806
+2025-09-25 18:50:42,781 - INFO - Loss Components: {'cls_loss': 0.31997560098284183, 'kd_loss': 4.954351920856682e-08, 'fusion_reg': -0.08825427175973556, 'total_loss': 0.2317213533903458}
+2025-09-25 18:50:42,811 - INFO - New best Stage 2 model saved: outputs\models\best_stage_2_epoch_3_acc_0.9806.pth
+2025-09-25 18:50:42,837 - INFO - 
+Stage 2, Epoch 4/50
+2025-09-25 18:53:28,342 - INFO - Train Loss: 0.2079, Train Acc: 0.8827
+2025-09-25 18:53:28,342 - INFO - Val Loss: 0.0000, Val Acc: 0.9598
+2025-09-25 18:53:28,342 - INFO - Loss Components: {'cls_loss': 0.2973390888789573, 'kd_loss': 2.7700710974520023e-08, 'fusion_reg': -0.08945057063716129, 'total_loss': 0.20788853191841658}
+2025-09-25 18:53:28,342 - INFO - 
+Stage 2, Epoch 5/50
+2025-09-25 18:56:15,354 - INFO - Train Loss: 0.2233, Train Acc: 0.8798
+2025-09-25 18:56:15,354 - INFO - Val Loss: -0.0121, Val Acc: 0.9687
+2025-09-25 18:56:15,354 - INFO - Loss Components: {'cls_loss': 0.31154355330421135, 'kd_loss': 1.364045268784945e-08, 'fusion_reg': -0.08822158756620675, 'total_loss': 0.22332197190591763}
+2025-09-25 18:56:15,354 - INFO - 
+Stage 2, Epoch 6/50
+2025-09-25 18:58:59,550 - INFO - Train Loss: 0.1927, Train Acc: 0.8914
+2025-09-25 18:58:59,550 - INFO - Val Loss: -0.0183, Val Acc: 0.9685
+2025-09-25 18:58:59,550 - INFO - Loss Components: {'cls_loss': 0.28320274248411786, 'kd_loss': 4.629486972845873e-09, 'fusion_reg': -0.09053908272461653, 'total_loss': 0.19266366191342701}
+2025-09-25 18:58:59,550 - INFO - 
+Stage 2, Epoch 7/50
+2025-09-25 19:01:46,639 - INFO - Train Loss: 0.2115, Train Acc: 0.8824
+2025-09-25 19:01:46,639 - INFO - Val Loss: 0.0027, Val Acc: 0.9628
+2025-09-25 19:01:46,639 - INFO - Loss Components: {'cls_loss': 0.2992157142915493, 'kd_loss': -2.562751717111109e-09, 'fusion_reg': -0.08772604720313076, 'total_loss': 0.21148966571081032}
+2025-09-25 19:01:46,639 - INFO - 
+Stage 2, Epoch 8/50
+2025-09-25 19:04:30,888 - INFO - Train Loss: 0.1884, Train Acc: 0.8944
+2025-09-25 19:04:30,888 - INFO - Val Loss: 0.0109, Val Acc: 0.9646
+2025-09-25 19:04:30,888 - INFO - Loss Components: {'cls_loss': 0.277843885064634, 'kd_loss': -2.19900631210179e-08, 'fusion_reg': -0.0894854774081178, 'total_loss': 0.18835839688591918}
+2025-09-25 19:04:30,888 - INFO - 
+Stage 2, Epoch 9/50
+2025-09-25 19:07:16,614 - INFO - Train Loss: 0.1904, Train Acc: 0.8930
+2025-09-25 19:07:16,614 - INFO - Val Loss: -0.0230, Val Acc: 0.9695
+2025-09-25 19:07:16,614 - INFO - Loss Components: {'cls_loss': 0.2784211012895184, 'kd_loss': -1.9220637878333317e-08, 'fusion_reg': -0.08799451872210397, 'total_loss': 0.19042657325031356}
+2025-09-25 19:07:16,614 - INFO - Early stopping Stage 2 at epoch 9
+2025-09-25 19:07:16,614 - INFO - Stage 2 completed! Best accuracy: 0.9806
+2025-09-25 19:07:16,614 - INFO - 
+==================================================
+2025-09-25 19:07:16,614 - INFO - Starting Stage 3 Training (30 epochs)
+2025-09-25 19:07:16,614 - INFO - ==================================================
+2025-09-25 19:07:16,614 - INFO - 
+Stage 3, Epoch 1/30
+2025-09-25 19:07:16,906 - ERROR - Error in main execution: 'lazy_indicators'
+2025-09-25 19:27:48,319 - INFO - Using device: cuda
+2025-09-25 19:27:48,321 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2025-09-25 19:27:48,321 - INFO - CUDA Version: 12.4
+2025-09-25 19:27:48,322 - INFO - Initializing dataset...
+2025-09-25 19:27:53,727 - INFO - Loaded 32973 samples for train split
+2025-09-25 19:27:53,729 - INFO - 
+Class distribution for train split:
+2025-09-25 19:27:53,729 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 19:27:53,729 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 19:27:53,729 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 19:27:53,729 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 19:27:53,729 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 19:27:53,729 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 19:27:53,740 - INFO - Dataset loaded: 32973 total samples
+2025-09-25 19:27:53,741 - INFO - Train: 23081, Val: 4946, Test: 4946
+2025-09-25 19:27:53,742 - INFO - Class distribution:
+2025-09-25 19:27:53,742 - INFO -   burn_through: 4304 samples (13.1%)
+2025-09-25 19:27:53,742 - INFO -   lack_of_penetration: 6983 samples (21.2%)
+2025-09-25 19:27:53,742 - INFO -   misalignment: 3654 samples (11.1%)
+2025-09-25 19:27:53,742 - INFO -   normal: 6376 samples (19.3%)
+2025-09-25 19:27:53,742 - INFO -   over_penetration: 6950 samples (21.1%)
+2025-09-25 19:27:53,742 - INFO -   stomata: 4706 samples (14.3%)
+2025-09-25 19:27:53,742 - INFO - Initializing three-stage fusion model...
+2025-09-25 19:27:53,855 - INFO - Model initialized:
+2025-09-25 19:27:53,855 - INFO -   Total parameters: 3,221,445
+2025-09-25 19:27:53,855 - INFO -   Trainable parameters: 3,221,445
+2025-09-25 19:27:53,855 - INFO - Starting three-stage training...
+2025-09-25 19:27:53,855 - INFO - ============================================================
+2025-09-25 19:27:53,855 - INFO - ============================================================
+2025-09-25 19:27:53,855 - INFO - Starting Three-Stage Training Pipeline
+2025-09-25 19:27:53,855 - INFO - Stage 1: 40 epochs (Pre-training)
+2025-09-25 19:27:53,855 - INFO - Stage 2: 50 epochs (Knowledge Distillation)
+2025-09-25 19:27:53,856 - INFO - Stage 3: 30 epochs (TLA Activation)
+2025-09-25 19:27:53,856 - ERROR - Error in main execution: 'ThreeStageWeldingFusion' object has no attribute 'set_stage'
